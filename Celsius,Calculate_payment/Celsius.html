@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Celsius</title>
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/3462/3462704.png">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap" rel="stylesheet">
+    <style>
+        *
+        {
+            font-family: 'Kanit', sans-serif;
+        }
+        body
+        {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-image: url();
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        form
+        {
+            text-align: center;
+            border: 4px inset #313131;
+            border-radius: 25px;
+            width: 450px;
+            height: 100px;
+            padding: 1%;
+            background-color: #B6D0E1;
+        }
+        .Ooowee
+        {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        #box
+        {
+            width: 176px;
+            height: 20px;
+            border: 1px inset black;
+            border-width: 2px;
+            border-radius: 25px;
+            margin: 5px;
+            text-align: left;
+            color: rgb(124, 124, 124);
+            background-color: white;
+            padding-left: 3px;
+        }
+        #T0
+        {
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <form action="#">
+        <div>
+            <label for=""><strong>Change Fahrenheit to Celsius</strong></label>
+        </div>
+        <div class="Ooowee">
+            <input id="F" placeholder="Fahrenheit (° F)" type="number" style="margin: 5px;border-radius: 25px;">
+            <label id="T0" for="">To</label>
+            <div id="box">
+                <label for="" id="Cx">Celsius (° C)</label>
+            </div>
+        </div>
+        <div>
+            <span>
+                <button onclick="Convert()">Convert</button>
+                <button onclick="Reset()">Reset</button>
+            </span>
+        </div>
+        <div>
+            <a href="Calculate_payment.html">น้ำแร่</a>
+            <a href="Celsius.html">Celsius</a>
+            <a href="/ภาวะน้ำหนักตัว,ภ.ง.ด.91/bmi.html">bmi</a>
+            <a href="/ภาวะน้ำหนักตัว,ภ.ง.ด.91/ภงด91.html">เงินเดือน</a>
+            <a href="/สูตรคูณ/multiplication_table.html">สูตรคูณแบบ 1 </a>
+            <a href="/สูตรคูณ/multiplication_table2.html">สูตรคูณแบบ 2 </a>
+        </div>
+    </form>
+    
+</body>
+<script src="Celsius.js"></script>
+</html>
